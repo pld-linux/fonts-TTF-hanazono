@@ -1,12 +1,12 @@
 Summary:	Free TrueType fonts for CJK ideograms
 Summary(pl.UTF-8):	Wolnodostępne fonty TrueType dla ideogramów CJK
 Name:		fonts-TTF-hanazono
-Version:	20110915
+Version:	20120202
 Release:	1
 License:	Freeware
 Group:		Fonts
 Source0:	http://kage.sourceforge.jp/hanazono/hanazono-%{version}.zip
-# Source0-md5:	f2988a9ea2304e40cec02f220c658374
+# Source0-md5:	d571be4f4b06ba2138081bb919c63494
 URL:		http://fonts.jp/hanazono/
 BuildRequires:	unzip
 Requires(post,postun):	fontpostinst
