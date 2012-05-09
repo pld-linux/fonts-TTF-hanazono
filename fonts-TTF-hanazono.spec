@@ -16,11 +16,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		ttffontsdir	%{_fontsdir}/TTF
 
 %description
-This font is Kanji free font. This font includes 52,809 characters
-defined at ISO/IEC 10646 standard / the Unicode standard.
+Kanji free fonts, which includes 52,809 characters defined at ISO/IEC 10646
+standard / the Unicode standard.
 
-#%%description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+Fonty Kanji dostępne jako freeware. Zawierają 52809 znaków zdefiniowanych
+w standardzie Unicode ISO/IEC 10446.
 
 %prep
 %setup -q -c
